@@ -9,7 +9,13 @@ public class cicloPara {
     }
      */
 
-    for(int i = 0; )
+    for(int i = 0; i< 10 ; i++){
+      System.out.println("Iteración nro " + i);
+    }
 
+    for (int j = 100; j > 0 ;){
+      j --;
+      System.out.println("Iteración nro " + j );
+    }
   }
 }
