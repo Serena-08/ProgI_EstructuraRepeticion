@@ -14,8 +14,14 @@ public class cicloPara {
     }
 
     for (int j = 100; j > 0 ;){
-      j --;
       System.out.println("Iteración nro " + j );
+      if (j == 500) {
+        System.out.println("Estamos en la mitad del ciclo");
+        break; //Interrumpe el ciclo for, no se ejecutan mas iteraciones
+      }
+
+      if (j == 300){j = 305; continue;}
+      j --;
     }
   }
 }
